@@ -11,7 +11,7 @@
 
 
 ## Problem Statement
-
+Link to the Quandela challenge: https://github.com/iQuHACK/2024_Quandela_Remote 
 
 ## Solution
 
