@@ -3,7 +3,7 @@
 ## Collaborators: 
 * Phuong Khanh Tran
 * Quan Huu Ho
-* Malihe Yadavar
+* Malihe Yadavar 
 * Marcin Kepa
 
 ## Introduction
