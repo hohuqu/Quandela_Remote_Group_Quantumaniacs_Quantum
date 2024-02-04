@@ -22,7 +22,6 @@ We implemented the controlled-NOT gate and Toffoli gate in our solution, drawing
 ## Dependencies
 * Python >=3.8, <=3.12
 * perceval-quandela==0.10.3
-* math
 * numpy
 * matplotlib
 * tqdm
