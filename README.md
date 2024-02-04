@@ -4,7 +4,6 @@
 * Phuong Khanh Tran
 * Quan Huu Ho
 * Malihe Yadavar
-* Sarbjot Singh
 * Marcin Kepa
 
 ## Introduction
