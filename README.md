@@ -22,7 +22,7 @@ Expanding our horizons into quantum optics [7], we assessed second-order correla
 
 
 ## Instructions
-See jupyter notebooks as well/
+
 
 ## Dependencies
 * Python >=3.8, <=3.12
