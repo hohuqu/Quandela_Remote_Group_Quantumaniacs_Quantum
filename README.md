@@ -28,7 +28,8 @@ We initiated our exploration by constructing a quantum circuit using the Perceva
 Expanding our horizons into quantum optics [7], we assessed second-order correlation function (g2) values. This exploration allowed us to calculate the entanglement parameter (S) across various input states, providing a nuanced understanding of our quantum system's behavior [8]. We used a nested loop to iterate through the specified parameters and the Perceval library to configure the quantum processing unit (QPU) with different multiphoton components. The entanglement parameter 'E' was determined through a different combination of input states, and the entanglement parameter 'S' was computed from 'E' concerning the 'g2' value. The process was visualized with a progress bar, and the results were printed for analysis for further insight.
 
 
-
+## Instruction
+To test our code, call our get_CCZ() in main.py
 
 ## Dependencies
 * Python >=3.8, <=3.12
