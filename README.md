@@ -8,23 +8,27 @@
 * Marcin Kepa
 
 ## Introduction
+This project repository is a part of iQuHACK 2024, MIT's annual quantum hackathon. 
 
+## About iQuHACK 2024
+* [iQuHACK 2024](https://www.iquise.mit.edu/iQuHACK/2024-02-02)
+* [Quandela Challenge](https://github.com/iQuHACK/2024_Quandela_Remote)
 
 ## Problem Statement
-Link to iQuHACK 2024 Quandela challenge: https://github.com/iQuHACK/2024_Quandela_Remote 
+In this challenge, our primary aim is to delve into the correlation between linear optical circuits, which can be represented as unitary operations on modes, and the resulting unitary operators on the Fock space. Additionally, we seek to explore strategies for designing more complex linear optical gates effectively.
 
-## Solution
+To facilitate our research endeavors, we have harnessed the capabilities of Perceval, an open-source framework thoughtfully developed by Quandela. [Perceval](https://github.com/Quandela/Perceval) provides a comprehensive toolkit for working with photonic circuits, including:
+* Constructing circuits with linear optical components.
+* Precisely defining single-photon sources and associated error models.
+* Manipulating Fock states to meet our specific needs.
+* Conducting simulations to assess circuit behavior and performance.
+* Exploring emerging quantum algorithms and their potential applications.
 
+By incorporating Perceval into our project, we aim to enhance our understanding of these intricate concepts and their practical applications within the realm of quantum optics and quantum information processing
 
-## References
-[1] Aaronson, S., & Arkhipov, A. (2011, June). The computational complexity of linear optics. In Proceedings of the forty-third annual ACM symposium on Theory of computing (pp. 333-342).
+## Requirements
+Python 3.8 and below Python 3.12
+perceval-quandela==0.10.3
 
-[2] Reck, M., Zeilinger, A., Bernstein, H. J., & Bertani, P. (1994). Experimental realization of any discrete unitary operator. Physical review letters, 73(1), 58.
-
-[3] Clements, W. R., Humphreys, P. C., Metcalf, B. J., Kolthammer, W. S., & Walmsley, I. A. (2016). Optimal design for universal multiport interferometers. Optica, 3(12), 1460-1465.
-
-[4] Knill, E., Laflamme, R., & Milburn, G. J. (2001). A scheme for efficient quantum computation with linear optics. nature, 409(6816), 46-52.
-
-[5] Knill, E. (2002). Quantum gates using linear optics and postselection. Physical Review A, 66(5), 052306.
-
-[6] Uskov, D. B., Kaplan, L., Smith, A. M., Huver, S. D., & Dowling, J. P. (2009). Maximal success probabilities of linear-optical quantum gates. Physical Review A, 79(4), 042326.
+## Installation
+pip install perceval-quandela
