@@ -21,9 +21,6 @@ Expanding our horizons into quantum optics [7], we assessed second-order correla
 
 
 
-## Instructions
-
-
 ## Dependencies
 * Python >=3.8, <=3.12
 * perceval-quandela==0.10.3
