@@ -1,7 +1,7 @@
 # Quandela_Remote_Group_Quantumaniacs_Quantum
 
 ## Collaborators: 
-* Phuong Khanh Tran
+* Phuong Khanh (Jade) Tran
 * Quan Huu Ho
 * Malihe Yadavar
 * Marcin Kepa
