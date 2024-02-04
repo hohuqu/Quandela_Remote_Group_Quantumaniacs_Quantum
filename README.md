@@ -6,6 +6,15 @@
 * Malihe Yadavar
 * Marcin Kepa
 
+## NOTE:
+Please observe that our qubit definition is following (all dual-rail encoding)
+- Q1 (target): mode 1 and 2 (in the ordering of the processor modes)
+- Q2 (control1): mode 5 and 6 (as before)
+- Q3 (control2): mode 8 and 3 (note the change of the order! Here state |0> means a photon in mode 8)
+
+We hope that regardless of our unintuitive choice of basis, it will be possible to score the circuit correctly. This ordering of basis states comes directly from the way it was annotated in *[T.C. Ralp, Phys. Rev 2007]* and proper port encoding (as per instructions there https://github.com/Quandela/Perceval/blob/main/perceval/components/core_catalog/postprocessed_ccz.py) make it impossible to denote non-consecutive modes to compose a single qubit. On top of that Perceval doesn't seem to provide intuitive qubit exchange when implementing it as a photonic circuit and doing so via permutations proved to be extremly tedious and error prone.
+
+
 ## Introduction
 This project repository is a part of iQuHACK 2024, MIT's annual quantum hackathon. 
 
