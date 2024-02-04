@@ -14,7 +14,10 @@ This project repository is a part of iQuHACK 2024, MIT's annual quantum hackatho
 * [Quandela Challenge](https://github.com/iQuHACK/2024_Quandela_Remote)
 
 ## Solution
-We implemented the controlled-NOT gate and Toffoli gate in our solution, drawing inspiration from the research paper titled "Efficient Toffoli gates using qudits" [1].
+We initiated our exploration by constructing a quantum circuit using the Perceval library for quantum computing. Our primary focus was implementing a Toffoli-sign gate within the realm of deterministic polarization-encoded qubits, drawing inspiration from the insights presented in the research paper "Efficient Toffoli gates using qudits" [2]. In addition, we delved into the intricacies of non-deterministic post-selection and the beamsplitter test [3]. Our comprehensive solution encompassed the incorporation of Hadamard gates, beamsplitters, and post-selection [4]. To evaluate the performance and fidelity of our approach, we subjected it to analysis using the Perceval algorithm.
+
+Expanding our horizons into quantum optics [5], we assessed second-order correlation function (g2) values. This exploration allowed us to calculate the entanglement parameter (S) across various input states, providing a nuanced understanding of our quantum system's behavior.
+
 
 ## Instructions
 
