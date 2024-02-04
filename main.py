@@ -18,8 +18,7 @@ def get_CCZ():
     p.add((4,5), pcvl.BS.H(pcvl.BS.r_to_theta(1/3)))
 
     p.add((3,4), pcvl.BS.H(pcvl.BS.r_to_theta(1/4)))
-    p.set_postselection(pcvl.PostSelect("[4] == 1"))
-    # p.add_herald(4, expected=1)
+    p.add_herald(4, expected=0)
 
     p.add((6,7), pcvl.BS.H(pcvl.BS.r_to_theta(1/3)))
     # p.set_postselection(pcvl.PostSelect("[7] == 1"))
