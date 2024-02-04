@@ -30,3 +30,4 @@ def get_CCZ():
     p.add_herald(9, expected=1)
 
     p.set_postselection(pcvl.PostSelect("[1,2]==1 & [3, 8]==1 & [5,6]==1"))
+    return p
