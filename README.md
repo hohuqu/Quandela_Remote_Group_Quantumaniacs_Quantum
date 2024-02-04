@@ -20,8 +20,10 @@ We implemented the controlled-NOT gate and Toffoli gate in our solution, drawing
 
 
 ## Requirements
-* Python 3.8 and below Python 3.12
+* Python >=3.8, <=3.12
 * perceval-quandela==0.10.3
+* math
+* numpy
 
 ## Installation
 pip install perceval-quandela
@@ -33,7 +35,7 @@ pip install perceval-quandela
 
 [3] Y. Wang et al., “Quantum generative adversarial learning in photonics,” Opt. Lett., OL, vol. 48, no. 20, pp. 5197–5200, Oct. 2023, doi: 10.1364/OL.505084.
 
-[4] N. Maring et al., “A general-purpose single-photon-based quantum computing platform.” arXiv, Jun. 01, 2023. Accessed: Feb. 04, 2024. [Online]. Available: http://arxiv.org/abs/2306.00874
+[4] N. Maring et al., “A general-purpose single-photon-based quantum computing platform.” arXiv, Jun. 01, 2023. Accessed: Feb. 04, 2024. [Online]. Available: http://arxiv.org/abs/2306.00874.
 
 [5] E. Knill, “Quantum gates using linear optics and postselection,” Phys. Rev. A, vol. 66, no. 5, p. 052306, Nov. 2002, doi: 10.1103/PhysRevA.66.052306.
 
