@@ -25,6 +25,12 @@ To solve the challenge, we have harnessed the capabilities of Perceval, an open-
 
 By leveraging Perceval, we aim to enhance our understanding of these intricate concepts and their practical applications within the realm of quantum optics and quantum information processing
 
+## Solution
+
+
+## Instructions
+
+
 ## Requirements
 * Python 3.8 and below Python 3.12
 * perceval-quandela==0.10.3
