@@ -29,7 +29,7 @@ Expanding our horizons into quantum optics [7], we assessed second-order correla
 
 
 ## Instruction
-To test our code, call our get_CCZ() in main.py
+To test our code, please call our get_CCZ() in main.py. Other parts of the solution are inside the .ipynb file.
 
 ## Dependencies
 * Python >=3.8, <=3.12
